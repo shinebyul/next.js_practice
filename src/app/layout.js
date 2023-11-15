@@ -15,7 +15,7 @@ export default async function RootLayout({ children }) {
   return (
     <html>
       <body> 
-        <h1><Link href='/'>Next WEB!</Link></h1>
+        <h1><Link href='/'>Next WEB</Link></h1>
         <h3>Topics</h3>
         <ol>
           {topics.map((topic)=>{
