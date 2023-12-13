@@ -26,7 +26,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env*.local 
+# env.local을 버전관리하지 못하게 막아놓음.
 
 # vercel
 .vercel
